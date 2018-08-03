@@ -19,8 +19,8 @@ public class FXMLVBoxMainController implements Initializable {
     @FXML
     private MenuItem menuItemRelatoriosFuncionario;
     @FXML
-    private AnchorPane anchorPane;
-
+    private AnchorPane anchrPane;
+    
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -30,7 +30,9 @@ public class FXMLVBoxMainController implements Initializable {
     public void handleMenuItemCadastrosFuncionario() throws IOException{
         AnchorPane a = (AnchorPane) FXMLLoader.load(getClass().getResource("/javafxmvc/view/FXMLAnchorPaneCadastrosFuncionario.fxml"));
         System.out.println(a);
-        anchorPane.getChildren().setAll(a);
+        
+        
+        anchrPane.getChildren().setAll(a);
         
     
     }

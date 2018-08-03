@@ -23,7 +23,7 @@ import javafxmvc.model.dao.FuncionarioDAO;
 import javafxmvc.model.database.Database;
 import javafxmvc.model.database.DatabaseFactory;
 import javafxmvc.model.domain.Funcionario;
-import sun.plugin.javascript.navig.Anchor;
+
 
 public class FXMLAnchorPaneCadastrosFuncionarioController implements Initializable {
 
